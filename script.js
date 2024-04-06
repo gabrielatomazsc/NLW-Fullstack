@@ -70,7 +70,7 @@ const criarNovoParticipante = (participante) => {
     .to (participante.dataInscricao)
 
     const dataCheckIn = dayjs(Date.now())
-    .to (participante.dataInscricao)
+    .to (participante.dataCheckIn)
 
 
     return `
